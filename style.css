@@ -1,0 +1,135 @@
+body{
+    background: linear-gradient(170deg, #acdae9, #295191, #5C2E7E, #000000);
+    background-size: 300% 300%;
+    height: 100%;
+    width: 100%;
+    animation: colors 15s ease infinite;
+}
+@keyframes colors {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+.page{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+:root {
+  height: 100%;
+}
+.layoutDaCalculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    padding-bottom: 15px;
+    border: solid  white 2px;
+    border-radius: 20px;
+    width: 295px;
+    height: 481px;
+    background-color: rgba(238, 238, 238, 0);
+    
+    box-shadow:
+    20px 20px 21px rgba(0, 0, 0, 0.4)
+  ;
+  
+    
+}
+/*visor onde aparece os calculos*/
+
+.display p{
+    margin: 3px;
+    text-align: right;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.display input{
+    background: transparent;
+    border: none;
+    border-radius: 7px;
+    vertical-align: 10px;
+    height: 40px;
+    width: 292px;
+    text-align: right;
+    font-size: 35px;
+    color: rgb(79, 19, 136);
+    background-color: rgba(238, 238, 238);
+}
+
+.layoutDosBotoes{
+    height: 330px;
+    width: 291px;
+    border: 1px solid;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+
+}
+button{
+    margin-top: 8px;
+    height: 57px;
+    width: 55px;  
+    font-size: 21px;
+    color: rgb(253, 253, 253);
+    background: linear-gradient(135deg, rgb(198, 159, 219) 10%, rgb(146, 118, 202) 100%);
+    border: none;
+    border-radius: 7px;
+    
+    transition: all 0.3s;
+    cursor: pointer;
+}
+button:hover{
+    -webkit-filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.7));
+    filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.7));
+}
+
+.horizontal{
+    position: relative;
+    top: -129px;
+    left: 178px;
+    width: 291px;
+    height: 100px
+}
+.igual{
+    width: 114px;
+}
+
+.um {
+    text-align: right;
+}
+.mais,
+.menos{
+    height: 123px;
+}
+
+.deletar,
+.igual,
+.mais,
+.menos,
+.parenteses,
+.clean,
+.vezes,
+.dividi,
+.ponto{
+    background: linear-gradient(135deg, rgb(165, 97, 206) 10%, rgb(74, 49, 179) 100%);
+    color:  white;
+
+}

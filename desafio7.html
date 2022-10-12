@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script defer src="js/keyBoard.js"></script>
+    <script defer src="js/script.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Desafio7diasAluna</title>
+</head>
+ <body>
+      <div class="page">
+            <div class="layoutDaCalculadora">
+                <div class="display">
+                     <p id="calculo";"></p>
+                     <input id="display" placeholder="0" disabled>
+                </div>
+                   <div class="layoutDosBotoes">
+                        <div class="linha um">
+                            <button class="botao deletar" onclick="deletar('deletar')">⇦</button>
+                            <button class="botao clean" onclick="limpar('clean')">c</button>
+                            <button class="botao ponto" onclick="add_numero('.')">.</button>
+                        </div>
+                        <div class="linha dois">
+                            <button class="botao" onclick="add_numero(7)">7</button>
+                            <button class="botao" onclick="add_numero(8)">8</button>
+                            <button class="botao" onclick="add_numero(9)">9</button>
+                            <button class="botao parenteses" onclick="add_operador('(')">(</button>
+                            <button class="botao parenteses" onclick="add_operador(')')">)</button>
+                        </div>
+                        <div class="linha tres">
+                            <button class="botao" onclick="add_numero(4)">4</button>
+                            <button class="botao" onclick="add_numero(5)">5</button>
+                            <button class="botao" onclick="add_numero(6)">6</button>
+                            <button class="botao vezes" onclick="add_operador('*')">x</button>
+                            <button class="botao dividi" onclick="add_operador('/')">÷</button>
+                        </div>
+                        <div class="linha quatro">
+                            <button class="botao" onclick="add_numero(3)">3</button>
+                            <button class="botao" onclick="add_numero(2)">2</button>
+                            <button class="botao" onclick="add_numero(1)">1</button>
+                        </div>
+                        <div class="linha cinco">
+                            <button class="botao" onclick="add_numero(0)">0</button>
+                            <button class="botao igual" onclick="resultado('=')">=</button>
+                        </div>    
+                        <div class="linha horizontal">
+                            <button class="botao mais" onclick="add_operador('+')">+</button>
+                            <button class="botao menos" onclick="add_operador('-')">-</button>
+                        </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+
+</body>
+</html>
