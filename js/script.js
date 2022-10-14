@@ -1,3 +1,5 @@
+//cada função e ativada quando certa ação e feita na calculadora.
+
 var input = document.getElementById("display")
 var parar = false
 
@@ -20,11 +22,11 @@ const add_operador =(op) => input.value = input.value + op
 function resultado(equacao) {
     let calculo = input.value
     document.getElementById("calculo").innerHTML = input.value 
-    
+
     try{
         console.log(eval(calculo))
     }catch(e){
-        input.value = "ERRO!"
+        input.value = "Erro!"
         document.getElementById("calculo").innerHTML = ""
     }
     input.value = eval(calculo)
