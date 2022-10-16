@@ -1,7 +1,7 @@
 //cada função e ativada quando certa ação e feita na calculadora.
 
-var input = document.getElementById("display")
-var parar = false
+const input = document.getElementById("display")
+const parar = false
 
 const limpar=(clean) => {
     input.value = input.innerHTML + ""

@@ -101,6 +101,8 @@ button:hover{
     filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.7));
 }
 
+/* estilizando class especificas html*/
+/*botões horizontal (mais e menos)*/
 .horizontal{
     position: relative;
     top: -129px;
@@ -108,17 +110,19 @@ button:hover{
     width: 291px;
     height: 100px
 }
-.igual{
-    width: 114px;
-}
-
-.um {
-    text-align: right;
-}
 .mais,
 .menos{
     height: 123px;
 }
+.igual{
+    width: 114px;
+}
+
+/* alinha os elemento da primeira linha de botões para direita*/
+.um {
+    text-align: right;
+}
+
 
 .deletar,
 .igual,
