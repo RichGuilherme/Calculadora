@@ -3,6 +3,11 @@
 const input = document.getElementById("display")
 const parar = false
 
+/*document.querySelector(".clean").onclick = function (){
+    input.value = input.innerHTML + ""
+    document.getElementById("calculo").innerHTML = ""   treinando callback do curso.
+}*/
+
 const limpar=(clean) => {
     input.value = input.innerHTML + ""
     document.getElementById("calculo").innerHTML = ""
