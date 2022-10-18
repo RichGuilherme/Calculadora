@@ -2,7 +2,7 @@
 ### 🧮 Projeto de uma calculadora 
 ### ✔️ status: concluido
 =========================================================================================
-## Sobre
+## :information_source: Sobre
 Esse foi um pequeno projeto que usei para aperfeiçoar meus conhecimentos e principalmente a lógica, sendo um projeto simples e bem famoso para quem é inciante na programação.
 
 <p align="center">
